@@ -1,0 +1,16 @@
+input{
+    background-color: lightgreen;
+    color: maroon;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+input:disabled {
+    color: mintcream;
+}
+div{
+    font-size: 75px;
+    margin: 30px;
+}

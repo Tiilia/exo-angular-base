@@ -1,0 +1,4 @@
+<div>{{this.seconds|chronoFormat}}</div>
+<input type="button" value="Play" (click)="btn_play()" [disabled]="timerIsActive">
+<input type="button" value="Pause" (click)="btn_pause()" [disabled]="!timerIsActive">
+<input type="button" value="Reset" (click)="btn_reset()" [disabled]="seconds === 0">
