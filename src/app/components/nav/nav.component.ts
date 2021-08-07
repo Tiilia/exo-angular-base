@@ -21,6 +21,7 @@ export class NavComponent implements OnInit {
       new Link('--------'),
       new Link('Chonomètre', '/chrono'),
       new Link('--------'),
+      new Link('Tableau de score', '/score'),
     ]));
   }
 
